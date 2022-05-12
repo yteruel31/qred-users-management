@@ -21,26 +21,6 @@ yarn install
 ### Run the front
 
 ```sh
-npm run react:start
-```
-
-### Run the back (src/api)
-
-Execute migration
-
-```sh
-npx prisma migrate deploy
-```
-
-Execute seeder
-
-```sh
-npx prisma db seed
-```
-
-Execute the app
-
-```sh
 npm run start
 ```
 
