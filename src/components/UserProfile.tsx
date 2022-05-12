@@ -1,14 +1,14 @@
 import React from 'react';
 import {useSelector} from "react-redux";
-import {useModals} from "../../hooks/use-modals";
-import {selectUserById} from "../../store/reducers/user.reducer";
-import {Avatar} from "../common/Avatar";
-import Button from "../common/Button";
-import {Card} from "../common/Card";
-import {Group} from "../common/Layout/Group";
-import Stack from "../common/Layout/Stack";
-import {Text} from "../common/Text";
-import UserEditForm from "../UserEditForm";
+import {useModals} from "../hooks/use-modals";
+import {selectUserById} from "../store/reducers/user.reducer";
+import {Avatar} from "./common/Avatar";
+import Button from "./common/Button";
+import {Card} from "./common/Card";
+import {Group} from "./common/Layout/Group";
+import Stack from "./common/Layout/Stack";
+import {Text} from "./common/Text";
+import UserEditForm from "./UserEditForm";
 
 const UserProfile: React.FC<{ id: number }> = (props) => {
     const {id} = props;

@@ -1,5 +1,5 @@
 import React from "react";
-import UserProfile from "../components/UserProfile/UserProfile";
+import UserProfile from "../components/UserProfile";
 import UserList from "../pages/UserList";
 
 export interface IRoute {

@@ -15,6 +15,8 @@ const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 
+
+
 const theme = {
     fontFamily: "Poppins, sans-serif",
     colors: {

@@ -5,7 +5,7 @@ import {toast} from "react-toastify";
 import {Card} from "../components/common/Card";
 import {Container} from "../components/common/Layout/Container";
 import Table from "../components/common/Table";
-import UserProfile from "../components/UserProfile/UserProfile";
+import UserProfile from "../components/UserProfile";
 import {useModals} from "../hooks/use-modals";
 import {IUserDto} from "../services/dtos/user.dto";
 import {UserService} from "../services/user.service";
