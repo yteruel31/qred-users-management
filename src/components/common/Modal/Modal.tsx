@@ -52,7 +52,7 @@ const FocusLock = styled(ReactFocusLock)`
 `;
 
 const StyledModal = styled.div`
-  width: 500px;
+  width: 20em;
   outline: 0;
   position: relative;
   margin-top: auto;
@@ -65,6 +65,10 @@ const StyledModal = styled.div`
   border-radius: 4px;
   box-sizing: border-box;
   padding: 20px;
+
+  @media (min-width: 768px) {
+    width: 500px;
+  }
 `;
 
 const Header = styled.div`

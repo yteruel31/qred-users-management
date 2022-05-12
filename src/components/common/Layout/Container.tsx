@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding-left: 10rem;
-  padding-right: 10rem;
-  max-width: 1000px;
+  max-width: 300px;
+  
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: 768px) {
+    max-width: 1000px;
+  }
 `
